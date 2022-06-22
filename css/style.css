@@ -1,0 +1,216 @@
+*{
+margin: 0 auto;
+padding: 0;
+
+/* * {
+    font family: 'Montserrat', sans-serif;
+} */
+
+     
+
+  html {
+      scroll-behavior: smooth;
+  }
+   
+}
+.container{
+   width: 100% ;
+   margin:auto; 
+}
+
+#body{
+
+    background-color: rgb(75, 3, 48);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.nav-links {
+    color:rgb(248, 249, 250)
+    text-decoration: none;
+    font-weight: bold;
+    margin: 1rem 0;
+    font-size: 1rem;
+    line-height: 1.5rem;
+
+}
+
+
+.nav-links {
+    margin: 1rem 0;
+
+}
+
+.nav-link {
+    padding: 0 1rem;
+
+}
+
+    .about-container {
+        margin: 4rem auto;
+        padding: 1rem;
+        background-color: rgb(81, 1, 49);
+        color:rgb(238, 245, 249);
+        max-width: 650px;
+        boarder-radius: 15px;
+ }
+
+        .hero-image { 
+            margin: 0 auto;
+            padding: 1rem 0;
+            display: block;
+            border-radius: 50%;
+            max-width: 50%;
+            height: auto;
+
+}
+      
+
+     .title,
+     .details,
+     .description {
+        text-align:center;
+        font-size: 14px;
+        line-height: 20px;
+        padding: 0 1rem;
+
+     }
+
+
+       .social-icon {
+        display: flex;
+        justify-content: center;
+       }
+
+       .social-image {
+        width: 30px;
+        height: 30px;
+        margin: 0 2rem;
+    }
+    
+    .institution-items-container {
+        display: flex;
+    }
+    
+    .institution-items {
+        position: relative;
+        width: 100%;
+        min-height: 1rem;
+        padding: 0 1rem;
+    }
+    
+    .institution-image {
+        width: 100px;
+        height: 100px;
+        margin: 0 auto;
+        display: block;
+        border: 1px solid grey;
+        border-radius: 1rem;
+        padding: 1rem;
+        box-shadow: rgb(196 196 196 / 30%) 0px 5px 15px;
+    }
+    
+    .institution-image:hover {
+        background-color: #f2f2f2;
+    }
+    
+    .institution-name,
+    .degree-name {
+        text-align: center;
+        font-size: 0.9rem;
+    }
+    
+    .skills-container {
+        margin: 3rem auto;
+        padding: 2rem 0;
+        background-color: #f2f2f2;
+        color: black;
+        border-radius: 1rem;
+        box-shadow: 0 2px 2px 2px #f2f2f2;
+    }
+    
+    .skills-title {
+        text-align: center;
+        font-size: 18px;
+        line-height: 26px;
+        color: #19010f;
+    }
+    
+    li {
+        list-style: none;
+        margin: 0.8rem 0
+    }
+    
+    #experience-table {
+        border-collapse: collapse;
+        width: 100%;
+        margin: 2rem 0;
+        cursor: pointer;
+    }
+    
+    #experience-table td,
+    #experience-table th {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: center;
+    }
+    
+    #experience-table th {
+        background-color: #f7f4f4;
+        color: rgb(4, 59, 37);
+    }
+    
+    #experience-table tbody:nth-child(odd) {
+        background-color: #5f072d;
+        color: rgb(11, 5, 1);
+    }
+    
+    #experience-table tr:hover {
+        background-color: #f2f7ff;
+        color: rgb(16, 111, 11);
+    }
+    
+    a {
+        text-decoration: none;
+        color: rgb(249, 249, 4);
+    }
+    
+    @media (min-width: 576px) {
+        .container {
+            max-width: 540px;
+        }
+    }
+    
+    @media (min-width: 768px) {
+        .container {
+            max-width: 728px;
+        }
+    }
+    
+    @media (min-width: 992px) {
+        .container {
+            max-width: 962px;
+        }
+    }
+    
+    @media (min-width:1200px) {
+        .container {
+            max-width: 1180px;
+        }
+    }
+    
+    
+    /* 
+    vh = viewport height
+    vw = viewport width
+    
+    */
